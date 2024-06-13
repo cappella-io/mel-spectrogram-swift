@@ -13,7 +13,6 @@ import CoreML
 
 class ViewController: UIViewController {
     
-    let audioData = AVAudioPCMBuffer()
         override func viewDidLoad() {
             super.viewDidLoad()
             // Additional setup can be added here if necessary
