@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             // Additional setup can be added here if necessary
+            let result = self.generateMelSpectrogram()
         }
         // Function to generate a mel spectrogram from fixed audio signal
         func generateMelSpectrogram() -> MLMultiArray? {
