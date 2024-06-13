@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DACFB5E2C1B30930026C876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB5D2C1B30930026C876 /* AppDelegate.swift */; };
+		1DACFB602C1B30930026C876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */; };
+		1DACFB622C1B30930026C876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB612C1B30930026C876 /* ViewController.swift */; };
+		1DACFB652C1B30930026C876 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFB642C1B30930026C876 /* Base */; };
+		1DACFB672C1B30960026C876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFB662C1B30960026C876 /* Assets.xcassets */; };
+		1DACFB6A2C1B30960026C876 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFB692C1B30960026C876 /* Base */; };
+		1DACFB752C1B30960026C876 /* MelSpectrogramSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB742C1B30960026C876 /* MelSpectrogramSwiftTests.swift */; };
+		1DACFB7F2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB7E2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift */; };
+		1DACFB812C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB802C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift */; };
+		1DACFB8E2C1B30A90026C876 /* Mel_spectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */; };
+		1DACFB902C1B31810026C876 /* 35.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFB8F2C1B31810026C876 /* 35.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DACFB712C1B30960026C876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DACFB522C1B30930026C876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DACFB592C1B30930026C876;
+			remoteInfo = MelSpectrogramSwift;
+		};
+		1DACFB7B2C1B30960026C876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DACFB522C1B30930026C876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DACFB592C1B30930026C876;
+			remoteInfo = MelSpectrogramSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DACFB5A2C1B30930026C876 /* MelSpectrogramSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelSpectrogramSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DACFB5D2C1B30930026C876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DACFB612C1B30930026C876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DACFB642C1B30930026C876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DACFB662C1B30960026C876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DACFB692C1B30960026C876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DACFB6B2C1B30960026C876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DACFB702C1B30960026C876 /* MelSpectrogramSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelSpectrogramSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DACFB742C1B30960026C876 /* MelSpectrogramSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramSwiftTests.swift; sourceTree = "<group>"; };
+		1DACFB7A2C1B30960026C876 /* MelSpectrogramSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelSpectrogramSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DACFB7E2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramSwiftUITests.swift; sourceTree = "<group>"; };
+		1DACFB802C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Mel_spectogram.mlpackage; sourceTree = "<group>"; };
+		1DACFB8F2C1B31810026C876 /* 35.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 35.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DACFB572C1B30930026C876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB6D2C1B30960026C876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB772C1B30960026C876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DACFB512C1B30930026C876 = {
+			isa = PBXGroup;
+			children = (
+				1DACFB5C2C1B30930026C876 /* MelSpectrogramSwift */,
+				1DACFB732C1B30960026C876 /* MelSpectrogramSwiftTests */,
+				1DACFB7D2C1B30960026C876 /* MelSpectrogramSwiftUITests */,
+				1DACFB5B2C1B30930026C876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DACFB5B2C1B30930026C876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DACFB5A2C1B30930026C876 /* MelSpectrogramSwift.app */,
+				1DACFB702C1B30960026C876 /* MelSpectrogramSwiftTests.xctest */,
+				1DACFB7A2C1B30960026C876 /* MelSpectrogramSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DACFB5C2C1B30930026C876 /* MelSpectrogramSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1DACFB5D2C1B30930026C876 /* AppDelegate.swift */,
+				1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */,
+				1DACFB612C1B30930026C876 /* ViewController.swift */,
+				1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */,
+				1DACFB8F2C1B31810026C876 /* 35.wav */,
+				1DACFB632C1B30930026C876 /* Main.storyboard */,
+				1DACFB662C1B30960026C876 /* Assets.xcassets */,
+				1DACFB682C1B30960026C876 /* LaunchScreen.storyboard */,
+				1DACFB6B2C1B30960026C876 /* Info.plist */,
+			);
+			path = MelSpectrogramSwift;
+			sourceTree = "<group>";
+		};
+		1DACFB732C1B30960026C876 /* MelSpectrogramSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DACFB742C1B30960026C876 /* MelSpectrogramSwiftTests.swift */,
+			);
+			path = MelSpectrogramSwiftTests;
+			sourceTree = "<group>";
+		};
+		1DACFB7D2C1B30960026C876 /* MelSpectrogramSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DACFB7E2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift */,
+				1DACFB802C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift */,
+			);
+			path = MelSpectrogramSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DACFB592C1B30930026C876 /* MelSpectrogramSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DACFB842C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwift" */;
+			buildPhases = (
+				1DACFB562C1B30930026C876 /* Sources */,
+				1DACFB572C1B30930026C876 /* Frameworks */,
+				1DACFB582C1B30930026C876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelSpectrogramSwift;
+			productName = MelSpectrogramSwift;
+			productReference = 1DACFB5A2C1B30930026C876 /* MelSpectrogramSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DACFB6F2C1B30960026C876 /* MelSpectrogramSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DACFB872C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwiftTests" */;
+			buildPhases = (
+				1DACFB6C2C1B30960026C876 /* Sources */,
+				1DACFB6D2C1B30960026C876 /* Frameworks */,
+				1DACFB6E2C1B30960026C876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DACFB722C1B30960026C876 /* PBXTargetDependency */,
+			);
+			name = MelSpectrogramSwiftTests;
+			productName = MelSpectrogramSwiftTests;
+			productReference = 1DACFB702C1B30960026C876 /* MelSpectrogramSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DACFB792C1B30960026C876 /* MelSpectrogramSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DACFB8A2C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwiftUITests" */;
+			buildPhases = (
+				1DACFB762C1B30960026C876 /* Sources */,
+				1DACFB772C1B30960026C876 /* Frameworks */,
+				1DACFB782C1B30960026C876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DACFB7C2C1B30960026C876 /* PBXTargetDependency */,
+			);
+			name = MelSpectrogramSwiftUITests;
+			productName = MelSpectrogramSwiftUITests;
+			productReference = 1DACFB7A2C1B30960026C876 /* MelSpectrogramSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DACFB522C1B30930026C876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1DACFB592C1B30930026C876 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1DACFB6F2C1B30960026C876 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1DACFB592C1B30930026C876;
+					};
+					1DACFB792C1B30960026C876 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1DACFB592C1B30930026C876;
+					};
+				};
+			};
+			buildConfigurationList = 1DACFB552C1B30930026C876 /* Build configuration list for PBXProject "MelSpectrogramSwift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DACFB512C1B30930026C876;
+			productRefGroup = 1DACFB5B2C1B30930026C876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DACFB592C1B30930026C876 /* MelSpectrogramSwift */,
+				1DACFB6F2C1B30960026C876 /* MelSpectrogramSwiftTests */,
+				1DACFB792C1B30960026C876 /* MelSpectrogramSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DACFB582C1B30930026C876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DACFB672C1B30960026C876 /* Assets.xcassets in Resources */,
+				1DACFB6A2C1B30960026C876 /* Base in Resources */,
+				1DACFB902C1B31810026C876 /* 35.wav in Resources */,
+				1DACFB652C1B30930026C876 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB6E2C1B30960026C876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB782C1B30960026C876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DACFB562C1B30930026C876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DACFB622C1B30930026C876 /* ViewController.swift in Sources */,
+				1DACFB8E2C1B30A90026C876 /* Mel_spectogram.mlpackage in Sources */,
+				1DACFB5E2C1B30930026C876 /* AppDelegate.swift in Sources */,
+				1DACFB602C1B30930026C876 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB6C2C1B30960026C876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DACFB752C1B30960026C876 /* MelSpectrogramSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DACFB762C1B30960026C876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DACFB7F2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift in Sources */,
+				1DACFB812C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DACFB722C1B30960026C876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DACFB592C1B30930026C876 /* MelSpectrogramSwift */;
+			targetProxy = 1DACFB712C1B30960026C876 /* PBXContainerItemProxy */;
+		};
+		1DACFB7C2C1B30960026C876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DACFB592C1B30930026C876 /* MelSpectrogramSwift */;
+			targetProxy = 1DACFB7B2C1B30960026C876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DACFB632C1B30930026C876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DACFB642C1B30930026C876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DACFB682C1B30960026C876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DACFB692C1B30960026C876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DACFB822C1B30960026C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DACFB832C1B30960026C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DACFB852C1B30960026C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN9ZU4RCMU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MelSpectrogramSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DACFB862C1B30960026C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN9ZU4RCMU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MelSpectrogramSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DACFB882C1B30960026C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U66WMCBJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelSpectrogramSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MelSpectrogramSwift";
+			};
+			name = Debug;
+		};
+		1DACFB892C1B30960026C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U66WMCBJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelSpectrogramSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MelSpectrogramSwift";
+			};
+			name = Release;
+		};
+		1DACFB8B2C1B30960026C876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U66WMCBJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelSpectrogramSwift;
+			};
+			name = Debug;
+		};
+		1DACFB8C2C1B30960026C876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U66WMCBJEN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.cappella.MelSpectrogramSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelSpectrogramSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DACFB552C1B30930026C876 /* Build configuration list for PBXProject "MelSpectrogramSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DACFB822C1B30960026C876 /* Debug */,
+				1DACFB832C1B30960026C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DACFB842C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DACFB852C1B30960026C876 /* Debug */,
+				1DACFB862C1B30960026C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DACFB872C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DACFB882C1B30960026C876 /* Debug */,
+				1DACFB892C1B30960026C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DACFB8A2C1B30960026C876 /* Build configuration list for PBXNativeTarget "MelSpectrogramSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DACFB8B2C1B30960026C876 /* Debug */,
+				1DACFB8C2C1B30960026C876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DACFB522C1B30930026C876 /* Project object */;
+}
