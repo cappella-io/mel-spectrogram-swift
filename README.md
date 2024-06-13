@@ -8,7 +8,7 @@ We are passing our audio file to the mel spectrogram and not getting the desired
 - _mel_spectrogram_in_python.py_ is the python code to generate the mel spectrogram
 - _melspectogram_to_mlmodel.py_ is our python code to export mel_spectrogram_in_python.py into an ml file
 - _Mel_spectogram.mlpackage-20240611T134525Z-001 (2).zip_ is the package we get and that is then opened and added to swift
--_ MelSpectrogramSwift is_ the folder of swift code, in particular in viewController we load the audio file and the pass it through the mel spectrogram.
+-_ MelSpectrogramSwift is_ the folder of swift code, in particular in _ViewController.swift_ we load the audio file and the pass it through the mel spectrogram.
 
 - The output we should get if it worked is:
 [[-51.309372 -51.109604 -52.23552 -53.613808 -54.30912 ]
