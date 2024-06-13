@@ -13,39 +13,9 @@ import CoreML
 
 class ViewController: UIViewController {
     
-    // Properties for the models
-    var melSpectrogramModel: MLModel?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        listBundleResources()
-        
         // Load the models
-        loadModels()
-    }
-    
-    func listBundleResources() {
-        let paths = Bundle.main.paths(forResourcesOfType: nil, inDirectory: nil)
-        for path in paths {
-            print(path)
-        }
-    }
-
-    
-    // Load the models
-    func loadModels() {
-        
-        if let melSpectrogramModelURL = Bundle.main.url(forResource: "Mel_spectogram", withExtension: "mlmodelc") {
-            print("Mel Spectrogram Model URL: \(melSpectrogramModelURL)")
-            do {
-                melSpectrogramModel = try MLModel(contentsOf: melSpectrogramModelURL)
-            } catch {
-                fatalError("Failed to load models: \(error.localizedDescription)")
-            }
-        } else {
-            fatalError("Model files not found. Please ensure the .mlpackage files are correctly added to the project and included in the Copy Bundle Resources phase.")
-        }
     }
        
        // Function to process audio and generate a mel spectrogram
@@ -70,17 +40,6 @@ class ViewController: UIViewController {
            print("Tensor Shape",tensor.shape)
            print("Tensor DataType",tensor.dataType)
            do {
-               
-               // Initialize the model
-                   let model_1 = try Mel_spectogram()
-                print("model_1",model_1)
-                   // Make a prediction
-                   let output = try model_1.prediction(audio: tensor)//prediction(audio: monoSignal)
-               print("output",output.var_11ShapedArray)
-                   // Access the result
-                   let resultArray = output.var_11
-               print("resultArray",resultArray)
-
                let model = try? Mel_spectogram(configuration: MLModelConfiguration())
                let input = Mel_spectogramInput(audio: tensor)
                print("Model input created:", input)
@@ -89,13 +48,7 @@ class ViewController: UIViewController {
                print("var_11:", featureNames!.var_11)
                print("var_11ShapedArray:", featureNames!.var_11ShapedArray)
                print("var_11 Values:", featureNames!.featureValue(for: "var_11")!)
-               guard let melSpectrogramModel = melSpectrogramModel else {
-                   print("Mel spectrogram model not loaded.")
-                   return nil
-               }
-               let melSpectrogramInput = try MLDictionaryFeatureProvider(dictionary: ["var_11": tensor])
-               let melSpectrogramOutput = try melSpectrogramModel.prediction(from: melSpectrogramInput)
-               return melSpectrogramOutput.featureValue(for: "output")?.multiArrayValue
+               return tensor
            } catch {
                print("Failed to generate mel spectrogram: \(error.localizedDescription)")
                return nil
