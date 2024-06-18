@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D86F1702C2169AD0007A2AE /* wave_to_logmel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1D86F16F2C2169AD0007A2AE /* wave_to_logmel.mlpackage */; };
+		1D86F1742C2186090007A2AE /* encodedBabyCryDetectionModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1D86F1732C2186090007A2AE /* encodedBabyCryDetectionModel.mlpackage */; };
 		1DACFB5E2C1B30930026C876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB5D2C1B30930026C876 /* AppDelegate.swift */; };
 		1DACFB602C1B30930026C876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */; };
 		1DACFB622C1B30930026C876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB612C1B30930026C876 /* ViewController.swift */; };
@@ -16,7 +18,6 @@
 		1DACFB752C1B30960026C876 /* MelSpectrogramSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB742C1B30960026C876 /* MelSpectrogramSwiftTests.swift */; };
 		1DACFB7F2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB7E2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift */; };
 		1DACFB812C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB802C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift */; };
-		1DACFB8E2C1B30A90026C876 /* Mel_spectogram.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */; };
 		1DACFB902C1B31810026C876 /* 35.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1DACFB8F2C1B31810026C876 /* 35.wav */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D86F16F2C2169AD0007A2AE /* wave_to_logmel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = wave_to_logmel.mlpackage; sourceTree = "<group>"; };
+		1D86F1732C2186090007A2AE /* encodedBabyCryDetectionModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = encodedBabyCryDetectionModel.mlpackage; sourceTree = "<group>"; };
 		1DACFB5A2C1B30930026C876 /* MelSpectrogramSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelSpectrogramSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DACFB5D2C1B30930026C876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		1DACFB7A2C1B30960026C876 /* MelSpectrogramSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelSpectrogramSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DACFB7E2C1B30960026C876 /* MelSpectrogramSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramSwiftUITests.swift; sourceTree = "<group>"; };
 		1DACFB802C1B30960026C876 /* MelSpectrogramSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelSpectrogramSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Mel_spectogram.mlpackage; sourceTree = "<group>"; };
 		1DACFB8F2C1B31810026C876 /* 35.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 35.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +108,8 @@
 				1DACFB5D2C1B30930026C876 /* AppDelegate.swift */,
 				1DACFB5F2C1B30930026C876 /* SceneDelegate.swift */,
 				1DACFB612C1B30930026C876 /* ViewController.swift */,
-				1DACFB8D2C1B30A90026C876 /* Mel_spectogram.mlpackage */,
+				1D86F16F2C2169AD0007A2AE /* wave_to_logmel.mlpackage */,
+				1D86F1732C2186090007A2AE /* encodedBabyCryDetectionModel.mlpackage */,
 				1DACFB8F2C1B31810026C876 /* 35.wav */,
 				1DACFB632C1B30930026C876 /* Main.storyboard */,
 				1DACFB662C1B30960026C876 /* Assets.xcassets */,
@@ -265,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D86F1742C2186090007A2AE /* encodedBabyCryDetectionModel.mlpackage in Sources */,
 				1DACFB622C1B30930026C876 /* ViewController.swift in Sources */,
-				1DACFB8E2C1B30A90026C876 /* Mel_spectogram.mlpackage in Sources */,
 				1DACFB5E2C1B30930026C876 /* AppDelegate.swift in Sources */,
+				1D86F1702C2169AD0007A2AE /* wave_to_logmel.mlpackage in Sources */,
 				1DACFB602C1B30930026C876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
